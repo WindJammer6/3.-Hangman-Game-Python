@@ -390,7 +390,7 @@ To be improved:
 * This code does not work if you attempt to add words into the 'word_library' list with multiple of the same alphabet in the word such as 'APPLE' and 'BANANA'.
 Have tested that if you guess e.g. letter 'P' in 'APPLE', only the first 'P' in 'APPLE' will be revealed to the user and updated. If user chose 'P' again,
 it is classified as a wrong guess. Haven,t tried solving this, wanted to move on to other projects.
-*cAlso, if you guess a letter that has already been guessed in the past such as 'M' again in 'MELON', it will be classified a wrong guess. Should be a quick
+* Also, if you guess a letter that has already been guessed in the past such as 'M' again in 'MELON', it will be classified a wrong guess. Should be a quick
 way to solve this such as adding a loop to re-prompt user for another guess like 'This letter has already been gussed!'if user typed in a letter already 
 in the updated 'blanks' dictionary.
 * Maybe can add a feature that shows the user the letters the user has already guessed as a reminder. If those letters are accidentally inputed again, they won't be
