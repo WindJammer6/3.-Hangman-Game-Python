@@ -381,7 +381,7 @@ User lose has a different output at the end.
 With better grasp of the concept after making my previous python game 'Tic-Tac-Toe', I found that myself more comfortable when making this one, even though it
 still took me 2 days :weary:.
 
-This project further expanded my knowledge on dictionaries, and the functionality of key-pair values. Learnt new commands such as zip(), ord(), append(), extend() converting lists into
+This project further expanded my knowledge on dictionaries, and the functionality of key-pair values. Learnt new commands such as zip(), ord(), append(), extend(), converting lists into
 dictionaries and using counter.
 
 <br>
@@ -389,9 +389,9 @@ dictionaries and using counter.
 To be improved:
 * This code does not work if you attempt to add words into the 'word_library' list with multiple of the same alphabet in the word such as 'APPLE' and 'BANANA'.
 Have tested that if you guess e.g. letter 'P' in 'APPLE', only the first 'P' in 'APPLE' will be revealed to the user and updated. If user chose 'P' again,
-it is classified as a wrong guess. Haven,t tried solving this, wanted to move on to other projects.
+it is classified as a wrong guess. Haven't tried solving this, wanted to move on to other projects.
 * Also, if you guess a letter that has already been guessed in the past such as 'M' again in 'MELON', it will be classified a wrong guess. Should be a quick
-way to solve this such as adding a loop to re-prompt user for another guess like 'This letter has already been gussed!'if user typed in a letter already 
+way to solve this such as adding a loop to re-prompt user for another guess like 'This letter has already been gussed!' if user typed in a letter already 
 in the updated 'blanks' dictionary.
 * Maybe can add a feature that shows the user the letters the user has already guessed as a reminder. If those letters are accidentally inputed again, they won't be
 classified as a wrong guess and the user will be re-prompted.
